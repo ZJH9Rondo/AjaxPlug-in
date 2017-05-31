@@ -1,6 +1,8 @@
 # 基于原生javascript封装的Ajax插件
   > 待优化，根据学习理解，持续更新Ajax插件代码以及完善Node测试接口
 
+* 欢迎 star 
+
 
   * 用法
 
@@ -49,7 +51,7 @@
   * package.json中写入了必须的依赖模块
     ```
       npm install
-      
+
       node server.js
     ```
   * 浏览器打开 index.html 刷新即可在控制台看到返回数据
