@@ -64,13 +64,13 @@
                                 for(var item in this.settings.data){
                                     this.settings.url = this.addURLParam(this.settings.url,item,this.settings.data[item]);
                                 }
-                                xhr.onreadystatechange = this.complete();
+                                xhr.onreadystatechange = this.complete;
                                 xhr.open(this.settings.method,this.settings.url,this.settings.async);
                                 xhr.send(null);
                             }
                             if(this.settings.method == 'post' || this.settings.method == 'POST'){
                               // POST请求
-                                xhr.onreadystatechange = this.complete();
+                                xhr.onreadystatechange = this.complete;
                                 xhr.open(this.settings.type,this.settings.url,this.settings.async);
                                 xhr.setRequestHeader = ("Content-Type","application/x-www-form-urlencoded; charset=UTF-8");
                                 xhr.send(this.settings.data);
