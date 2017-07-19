@@ -1,4 +1,5 @@
 // 封装Ajax [跨域,同源]
+//　POST 请求，此默认数据为 json 格式
             ;(function (){
                  var  xhr, // 全局变量
                       Ajax = function (params){
@@ -72,7 +73,7 @@
                               // POST请求
                                 xhr.onreadystatechange = this.complete();
                                 xhr.open(this.settings.type,this.settings.url,this.settings.async);
-                                xhr.setRequestHeader = ("Content-Type","application/x-www-form-urlencoded; charset=UTF-8");
+                                xhr.setRequestHeader("Content-Type","application/json; charset=UTF-8");
                                 xhr.send(this.settings.data);
                             }
                         }
