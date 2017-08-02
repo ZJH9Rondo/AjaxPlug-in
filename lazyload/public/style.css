@@ -21,5 +21,9 @@
   font-size: 50px;
   width: 200px;
   height: auto;
-  transition: all 0.5s;
+}
+
+#masonry>li>img{
+  max-width: 100%;
+  max-height: 100%;
 }
