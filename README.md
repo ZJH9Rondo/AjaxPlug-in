@@ -4,4 +4,6 @@
 
 > 欢迎指导，欢迎star
 
-* 常更
+* 1.Ajax简易封装插件
+* 2.Full-Page实现，参考[@Frank Fang](https://github.com/FrankFang)造轮子系列，代码写的比较高端，还在学习
+* 3.瀑布流(包含了预加载和懒加载，写了简易的链式调用，没有用ES6--!)

@@ -49,7 +49,7 @@
       this.items[i].style.left = 10 + 210*minFlag + 'px';
       this.items[i].style.top = flagHeight[minFlag] + 'px';
       flagHeight[minFlag] = flagHeight[minFlag] + this.items[i].offsetHeight + 10;
-      minHeight = flagHeight[minFlag];
+      minHeight = flagHeight[minFlag];  // 保存当前列长度改变位置
     }
 
     return this;
