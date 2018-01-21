@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*
+* full-page container
+*/
+.fullpage-3g{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+/*
+* full-page style
+*/
+.page-item-3g{
+    flex: 0 0 100%;
+    height: 100vh;
+    font-size: 40px;
+}
+.one{
+    background-color: yellow; 
+}
+.two{
+    background-color: green;
+}
+.three{
+    background-color: red;
+}
+.four{
+    background-color: yellowgreen;
+}
+.five{
+    background-color: aqua;
+}
+
+/*
+* full-page tips
+*/
+.page-tips-3g{
+    width: 40px;
+    height: auto;
+    list-style: none;
+    display: block;
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    margin-top: -80px;
+}
+.page-tips-3g>li{
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 10px;
+}
+.active-item-3g{
+    background-color: white;
+}
